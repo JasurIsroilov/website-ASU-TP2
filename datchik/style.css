@@ -1,0 +1,159 @@
+html{
+	background-image: url("content/background.jpg");
+	background-color: #000066;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	min-height:100%;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	font-family: arial;
+	color: #D0D0FF;
+	margin: 3px;
+	font-kerning: none;
+	text-align: center;
+	font-size: 25px;
+	height: 50px;
+}
+
+.mainbody{
+	min-height: 100%;
+	min-width: 900px;
+	margin: 3px;
+	background-color: red;
+}
+
+.content{
+	width: calc(100% - 282px);
+	min-width: 600px;
+	margin: 3px;
+	float: left;
+	padding: 10px;
+	background-color: rgba(230, 230, 230, 0.5);
+	overflow-y: scroll;
+	height: 80%;
+}
+
+.auth{
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+.menu{
+	margin: 3px;
+	padding: 10px;
+	float: left;
+	width:230px;
+	background-color: rgba(0, 0, 200, 0.5);
+}
+
+.footer{
+	font-family: arial;
+	color: #D0D0FF;
+	text-align: center;
+	font-size: 15px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	background-color: rgba(100, 0, 150, 0.5);
+}
+
+body{
+	font-family: arial;
+	color: #D0D0FF;
+}
+
+table{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+thead{
+	font-weight: bold;
+	padding: 5px;
+	background-color: rgba(80, 0, 100, 1);
+	border: 1px solid #dddddd;
+}
+
+table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+
+table tbody tr:nth-child(odd){
+	background-color: rgba(0, 0, 100, 1);
+}
+
+table tbody tr:nth-child(even){
+	background-color: rgba(0, 0, 200, 1);
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: red;
+	text-decoration: none;
+}
+select {
+	font-size: 18px;
+	text-align: center;
+}
+.login {
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #B4B2B0;
+	width:200px;
+	height: 30px;
+}
+
+.password{
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #B4B2B0;
+	width:200px;
+	height: 30px;
+}
+
+.ok {
+	border-bottom: 1px solid #B4B2B0;
+	-webkit-box-shadow: 1px 1px 1px 1px #B4B2B0;
+    box-shadow: 1px 1px 1px 1px #B4B2B0;
+	color: #000000;
+	position: relative;
+    width: 40%;
+    font-size: 20px;  
+    font-family: system-ui, Helvetica, Arial;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.authform{
+	text-align: center;
+    width: 300px;
+    margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.myform{
+	text-align: center;
+    width: 300px;
+    margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
